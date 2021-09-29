@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "s3-webapp" {
-  source  = "app.terraform.io/rotoro-demo/s3-webapp/aws"
+  source  = "app.terraform.io/rotoro-demo/webapp-terraform/s3"
 
   name        = var.name
   region = var.region
